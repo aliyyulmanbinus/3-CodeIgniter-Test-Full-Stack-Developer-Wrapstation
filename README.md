@@ -6,6 +6,10 @@ Aplikasi CMS sederhana untuk mensimulasikan proses pembelian produk. Mendukung
 operasi CRUD penuh untuk tiga entitas: User, Produk, dan Transaksi, tanpa fitur
 login/registrasi sesuai ketentuan soal.
 
+## Demo
+
+[![Fruit Detection Demo](https://img.youtube.com/vi/7x-izdWpjT8/0.jpg)](https://www.youtube.com/watch?v=7x-izdWpjT8)
+
 ## Spesifikasi Sistem Pengerjaan
 
 - OS: Windows 11 versi 23H2 (OS Build 22631.6199)
