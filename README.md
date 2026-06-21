@@ -1,6 +1,6 @@
-# CMS Simulasi Pembelian Produk — CodeIgniter 4
+# CMS Simulasi Pembelian Produk - CodeIgniter 4
 
-Technical Test Full Stack Developer — Wrapstation (Bagian CodeIgniter)
+Technical Test Full Stack Developer - Wrapstation (Bagian CodeIgniter)
 
 Aplikasi CMS sederhana untuk mensimulasikan proses pembelian produk. Mendukung
 operasi CRUD penuh untuk tiga entitas: User, Produk, dan Transaksi, tanpa fitur
@@ -26,9 +26,9 @@ login/registrasi sesuai ketentuan soal.
 
 Tiga tabel dengan relasi sebagai berikut:
 
-- **users** — `user_id` (PK), `name`
-- **products** — `product_id` (PK), `product_name`, `qty_in_stock`, `price`
-- **transactions** — `transaction_id` (PK), `user_id` (FK), `product_id` (FK), `payment_method`, `qty`
+- **users** - `user_id` (PK), `name`
+- **products** - `product_id` (PK), `product_name`, `qty_in_stock`, `price`
+- **transactions** - `transaction_id` (PK), `user_id` (FK), `product_id` (FK), `payment_method`, `qty`
 
 Satu user dapat memiliki banyak transaksi, satu produk dapat muncul di banyak
 transaksi. Saat transaksi baru dibuat, `qty_in_stock` pada produk terkait akan
